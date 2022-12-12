@@ -123,7 +123,7 @@ const SignUp = () => {
                       py-2
                       focus:outline-none focus:border-blue-400
                     "
-                  placeholder="Enter your Full username"
+                  placeholder="Enter your Full Name"
                 />
               </div>
             </div>
