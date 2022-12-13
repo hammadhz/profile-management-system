@@ -7,19 +7,19 @@ Sign In & Sign Up using google oauth and passport.js.
 Clone the project
 
 ```bash
-  git clone https://github.com/hammadhz/mern-google-auth.git
+  git clone https://github.com/hammadhz/profile-management-system.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd mern-google-auth
+cd profile-management-system
 ```
 
 Go to client folder
 
 ```
- cd client
+cd client
 ```
 
 Write cmd to run Locally
@@ -28,13 +28,7 @@ Write cmd to run Locally
  npm run start
 ```
 
-Go to server folder
-
-```
- cd server
-```
-
-Write cmd to run Locally
+Write cmd to run server Locally
 
 ```
  npm start
