@@ -1,11 +1,10 @@
 {
-  "name": "profile-managment-system",
+  "name": "profile-management-system",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon"
   },
   "author": "Hammad",
   "license": "MIT",
