@@ -37,7 +37,7 @@ server.use("/user", userRoute);
 server.use("/auth", authRoute);
 
 if (process.env.NODE_ENV === "production") {
-  server.get("/", (req, res) => {
+  server.get("*", (req, res) => {
     server.use(express.static(path.resolve(__dirname, "client", "build")));
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
   });
