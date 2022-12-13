@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 const session = require("express-session");
 const passport = require("passport");
 const authRoute = require("./routes/auth");
+const path = require("path");
 
 const server = express();
 
@@ -36,7 +37,6 @@ server.use("/user", userRoute);
 server.use("/auth", authRoute);
 
 if (process.env.NODE_ENV === "production") {
-  const path = require("path");
   server.get("/", (req, res) => {
     server.use(express.static(path.resolve(__dirname, "client", "build")));
     res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
